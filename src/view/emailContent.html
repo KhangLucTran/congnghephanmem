@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Verification</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+        background: white;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        color: #333;
+        font-size: 24px;
+      }
+      p {
+        color: #555;
+        line-height: 1.6;
+      }
+      a {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 15px 25px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background-color 0.3s;
+      }
+      a:hover {
+        background-color: #0056b3;
+      }
+      footer {
+        margin-top: 30px;
+        font-size: 14px;
+        color: #aaa;
+        text-align: center;
+      }
+      .features {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f1f1f1;
+        border-left: 4px solid #007bff;
+      }
+      .features ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .features li {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Levents Store!</h1>
+      <p>
+        Thank you for registering with us! We are thrilled to have you as part
+        of our community. To start enjoying our services, please verify your
+        account by clicking the button below:
+      </p>
+      <a href="{{verifyAccountLink}}">Verify Account</a>
+      <p>After verifying, you will be able to:</p>
+      <div class="features">
+        <h2>Features:</h2>
+        <ul>
+          <li>Access exclusive deals and discounts.</li>
+          <li>Receive personalized recommendations.</li>
+          <li>Join community events and workshops.</li>
+          <li>Track your orders easily.</li>
+        </ul>
+      </div>
+      <p>
+        If you did not create an account, please ignore this email. Your account
+        will remain inactive until verified.
+      </p>
+    </div>
+    <footer>
+      <p>Thank you for choosing Levents Store!</p>
+      <p>&copy; 2024 Levents Store. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
